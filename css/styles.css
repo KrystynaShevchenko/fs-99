@@ -1,0 +1,389 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.span-title {
+  color: #fd9222;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/**============Header==============**/
+
+.header {
+}
+.header-nav {
+}
+.header-logo-span {
+  font-style: italic;
+}
+.header-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  color: #111;
+  outline: transparent;
+}
+.header-logo-img {
+}
+.header-nav-list {
+}
+.header-nav-iteam {
+}
+.header-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: #fd9222;
+}
+.header-social-list {
+}
+.header-social-iteam {
+}
+.header-social-link {
+}
+/* *===================================**/
+
+/**============Hero==============**/
+.hero {
+  background: rgba(17, 17, 17, 0.6);
+}
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+.hero-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  background: #fd9222;
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #fcf1e0;
+  color: #fd9222;
+}
+.hero-btn-link {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+.hero-btn-link:hover,
+.hero-btn-link:focus {
+  color: #fd9222;
+}
+.hero-btn-scroll {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+.hero-btn-scroll:hover,
+.hero-btn-scroll:focus {
+  color: #fd9222;
+}
+/* *===================================**/
+
+/**============Features==============**/
+.features {
+  background: #1e1823;
+}
+.features-title {
+}
+.features-list {
+}
+.features-iteam {
+}
+.features-sub-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+.features-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+/* *===================================**/
+
+/**=============Taste================**/
+.taste {
+}
+.taste-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+.taste-span {
+}
+.taste-list {
+}
+.taste-iteam {
+}
+.taste-img {
+}
+.taste-sub-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
+/* *===================================**/
+
+/**=============Made================**/
+.made {
+}
+.made-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+.made-span {
+}
+.span-title {
+}
+.made-img {
+}
+.made-sub-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #111;
+}
+.made-list {
+}
+.made-iteam {
+}
+.made-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+/* *===================================**/
+
+/**=============Products================**/
+.products {
+}
+.products-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+.products-span {
+}
+.products-list {
+}
+.products-iteam {
+}
+.products-img {
+}
+.products-sub-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
+.products-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
+}
+.products-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  color: #111;
+  cursor: pointer;
+}
+/* *===================================**/
+
+/**============Sellers==============**/
+.sellers {
+}
+.sellers-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+.sellers-span {
+}
+.span-title {
+}
+.sellers-list {
+}
+.sellers-iteam {
+}
+.sellers-img {
+}
+.sellers-sub-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
+/* *===================================**/
+
+/**============Loved==============**/
+.loved {
+}
+.loved-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+.loved-span {
+}
+.loved-list {
+}
+.loved-iteam {
+}
+.loved-img {
+}
+.loved-sub-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+  color: #111;
+}
+.loved-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+}
+.loved-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 18px;
+  color: #111;
+  cursor: pointer;
+}
+.loved-btn:hover,
+.loved-btn:focus {
+  background: #fd9222;
+  color: #fff;
+}
+/* *===================================**/
+
+/**============Footer==============**/
+.footer {
+  background: #1e1823;
+}
+.footer-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+.footer-span {
+}
+.footer-sub-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fff;
+}
+.footer-social-list {
+}
+.footer-iteam {
+}
+.footer-soc-link {
+}
+.footer-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fff;
+}
+.footer-address {
+}
+.footer-address-list {
+}
+.footer-address-iteam {
+}
+.footer-address-contact {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+}
+.footer-nav {
+}
+.footer-nav-list {
+}
+.footer-nav-iteam {
+}
+.footer-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+/* *===================================**/
